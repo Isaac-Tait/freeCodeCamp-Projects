@@ -1,4 +1,5 @@
-// Declare your variable here
+/* https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/global-scope-and-functions
+Declare your variable here */
 var myGlobal = 10;
 
 function fun1() {
