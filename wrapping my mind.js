@@ -21,3 +21,5 @@ function processArg(num) {
 }
 
 processed = processArg(7);
+
+console.log(processed);
