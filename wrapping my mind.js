@@ -1,3 +1,4 @@
+// Lesson https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/assignment-with-a-returned-value
 var changed = 0;
 
 // the function "change" is defined as a number
