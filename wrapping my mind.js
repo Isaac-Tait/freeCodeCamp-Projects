@@ -10,3 +10,13 @@ changed = change(10);
 
 //Therefore the variable "changed" in line 1 is equal to 5.
 console.log(changed);
+
+
+//Call the processArg function with an argument of 7 and assign its return value to the variable processed.
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+processed = processArg(7);
