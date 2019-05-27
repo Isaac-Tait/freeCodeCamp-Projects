@@ -1,20 +1,27 @@
 var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
-function golfScore(par, strokes) {
-    if (strokes = 1) {
-      return "Hole-in-one!";
-    } else if (golfScore = 2) {
-      return "Eagle";
-    } else if (golfScore = 1) {
-      return "Birdie";
-    } else if (golfScore = 0) {
-      return "Par";
-    } else if (golfScore = -1) {
-      return "Bogey";
-    } else if (golfScore = -2) {
-      return "Double Bogey";
-    } if (golfScore = -3) { 
-        return "Go Home!";
-    }
-  };
 
-  console.log(golfScore(3, 1));
+function golfScore(par, strokes)
+
+    if (strokes === 1) {
+      return names[0];
+
+    } else if (strokes <= par - 2) {
+      return names[1];
+
+    } else if (strokes <= par - 1) {
+      return names[2];
+
+    } else if (par === strokes) {
+      return names[3];
+
+    } else if (strokes >= par + 1) {
+      return names[4];
+
+    } else if (strokes >= par + 2) {
+      return names[5];
+
+    } if (strokes >= par + 3) { 
+        return names[6];
+    };
+
+console.log(golfScore(5, 4));
