@@ -1,4 +1,4 @@
-var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "You ain't Tiger Woods Hommie!"];
 function golfScore(par, strokes) {
   if (strokes === 1) {
     return names[0];
