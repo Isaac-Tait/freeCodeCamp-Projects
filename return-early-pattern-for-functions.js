@@ -10,7 +10,7 @@ function abTest(a, b) {
     }
     
     // Change values below to test your code
-    console.log(abTest(12,2));
+    console.log(abTest(122,100));
 
     // I figured this out on my own from the following instructions:
     // Modify the function abTest so that if a or b are less than 0 the function will immediately exit with a value of undefined.
