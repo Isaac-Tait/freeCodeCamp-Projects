@@ -1,5 +1,5 @@
 var someObj = {
-    propName: "John"
+    propName: "Isaac"
   };
 
   function propPrefix(str) {
@@ -9,4 +9,4 @@ var someObj = {
 
   var someProp = propPrefix("Name");// someProp now holds the value 'propName'
   
-  console.log(someObj[someProp]); // "John"
+  console.log(someObj[someProp]);
